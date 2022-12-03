@@ -19,7 +19,7 @@ function App() {
       <EventsClass />
       <EventBinding />
       <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional />
+      <ConditionalRenderingFunctional connected={false}/>
     </div>
   );
 }
