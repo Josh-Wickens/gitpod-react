@@ -1,4 +1,5 @@
 import './App.css';
+import UseEffectContainer from './components/UseEffectContainer';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import FunctionalGreeting from './components/FunctionalGreeting';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
@@ -17,11 +18,11 @@ import './App.css';
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
 // import HooksCounter from "./components/HooksCounter";
-import ClassCounter from "./components/ClassCounter";
+// import ClassCounter from "./components/ClassCounter";
 // import ControlledFormHooks from './components/ControlledFormHooks';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import UseStateWithObjects from './components/UseStateWithObjects';
-import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectCounter from './components/UseEffectCounter';
 
 function App() {
   return (
@@ -45,9 +46,10 @@ function App() {
       <HooksCounter />
       <ControlledFormHooks /> 
       <UseStateWithArrays /> 
-      <UseStateWithObjects /> */}
-      <ClassCounter /> 
-      <UseEffectCounter />
+      <UseStateWithObjects />
+      <ClassCounter />  
+      <UseEffectCounter /> */}
+      <UseEffectContainer />
     
 
       
