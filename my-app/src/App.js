@@ -1,5 +1,4 @@
 import './App.css';
-import HTTPPosts from './components/HTTPPosts';
 // import FunctionalGreeting from './components/FunctionalGreeting';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
@@ -25,6 +24,8 @@ import HTTPPosts from './components/HTTPPosts';
 // import UseEffectContainer from './components/UseEffectContainer';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import HTTPRequests from './components/HTTPRequests';
+// import HTTPPosts from './components/HTTPPosts';
+import HTTPHooks from './components/HTTPHooks';
 
 
 function App() {
@@ -53,8 +54,9 @@ function App() {
       <ClassCounter />  
       <UseEffectCounter /> 
       <UseEffectContainer />
-      <HTTPRequests />*/}
-      <HTTPPosts />
+      <HTTPRequests />
+      <HTTPPosts />*/}
+      <HTTPHooks />
     
 
       
