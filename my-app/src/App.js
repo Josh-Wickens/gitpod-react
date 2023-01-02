@@ -1,6 +1,5 @@
 import './App.css';
-import UseEffectContainer from './components/UseEffectContainer';
-// import UseEffectCounter from './components/UseEffectCounter';
+import HTTPPosts from './components/HTTPPosts';
 // import FunctionalGreeting from './components/FunctionalGreeting';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
@@ -23,6 +22,10 @@ import UseEffectContainer from './components/UseEffectContainer';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectContainer from './components/UseEffectContainer';
+// import UseEffectCounter from './components/UseEffectCounter';
+// import HTTPRequests from './components/HTTPRequests';
+
 
 function App() {
   return (
@@ -48,8 +51,10 @@ function App() {
       <UseStateWithArrays /> 
       <UseStateWithObjects />
       <ClassCounter />  
-      <UseEffectCounter /> */}
+      <UseEffectCounter /> 
       <UseEffectContainer />
+      <HTTPRequests />*/}
+      <HTTPPosts />
     
 
       
